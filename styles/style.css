@@ -1,0 +1,94 @@
+body {
+    background-color: #EBEBEB;
+}
+
+.container {
+    align-content: center;
+    margin: 50px 300px 300px 300px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 7px 7px 25px #888888;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 380px;
+    color: #7B7B7B;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    width: 125px;
+    color: #EEEEEE;
+    background-color: lightslategrey;
+    border: 2px solid lightslategrey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.unresolved {
+    color: #7B7B7B;
+}
+
+.cross-task {
+    text-decoration: line-through;
+}
+
+.cross-action {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+
+    font: bold 11px Arial;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #5CB85C;
+    border: 1px solid #5CB85C;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.delete-action {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+
+    font: bold 11px Arial;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #D9534F;
+    border: 1px solid #D9534F;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.unresolvedTasks {
+    background-color: #E6E6E6;
+    padding: .1px;
+}
+
+.resolvedTasks {
+    background-color: #CCCCCC;
+    padding: .1px;
+}
+
+.taskBlock {
+    background-color: #EEEEEE;
+    margin: 5px;
+    padding: 10px;
+}
+
+.disable-click {
+    pointer-events: none;
+    cursor: none;
+}
